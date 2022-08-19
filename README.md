@@ -1,11 +1,11 @@
-# Three.js interactive water demo
-An interactive water demo using Three.JS library.
+# Three.js particle gravity demo
+A particle demo with trails using Three.JS library.
 
 ![screenshot](./screenshot.png)
 
 ## How it works
-Water physics is approximated by simulating each pixel as a particle that has momentum, vertical position and force from neighboring particles.
+The gravity for each dot is calculated using Newton's gravity formula. It's position is
+then collected to display a line trail. This demonstrates usage of manual mesh creation
+and management of its vertices.
 
-The height of water is then converted to a normal map and applied to a nice reflective plane.
-
-You can check out demo [here](https://charlieamer.github.io/threejs-water/).
+Checkout a demo [here](https://charlieamer.github.io/threejs-gravity/).
