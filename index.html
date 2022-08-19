@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><title>ThreeJS & TypeScript</title><style>html, body, canvas {margin: 0;padding: 0;border: 0;}
+      canvas {display: block;}
+      #app { width: 100%; height: 100% }
+      .notice { 
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        max-width: 300px;
+        color: white;
+      }
+      .notice-holder {
+        position: fixed;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+      }
+      a {
+        text-decoration: none;
+        color: #45c;
+      }</style></head><body><canvas id="app"></canvas><div class="notice-holder"><div class="notice">This demo demonstartes manual vertex management, simple physics and collision detection.</div><div class="notice">CONTROLS:<br/>LMB / W: Fly forward<br/>RMB / S: Fly back<br/>A: Move left<br/>D: Move right<br/>Mouse move: Look around<br/></div><div class="notice">The gravity for each dot is calculated using Newton's gravity formula. It's position is then collected to display a line trail. This demonstrates usage of manual mesh creation and management of its vertices.</div><div class="notice">Source code: <a href="https://github.com/charlieamer/threejs-gravity">https://github.com/charlieamer/threejs-gravity</a></div></div><script src="dist/index.js"></script><script defer="defer" src="/threejs-water/assets/js/main.53ae61769fd1f9ef1fa0.js"></script></body></html>
