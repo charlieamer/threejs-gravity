@@ -21,7 +21,7 @@ const WebpackConfig = {
     minimizer: [new TerserPlugin()],
   },
   output: {
-    publicPath: '/threejs-water/',
+    publicPath: '/threejs-gravity/',
   },
 };
 

@@ -1,6 +1,6 @@
 {
-  "name": "charlieamer-threejs-water",
-  "title": "Three.js interactive water",
+  "name": "charlieamer-threejs-gravity",
+  "title": "Three.js gravity demo",
   "target": "web",
   "private": false,
   "license": "MIT",
